@@ -86,13 +86,12 @@ button {
   align-self: center;
 }
 
-
 #examples h2 {
   text-align: center;
   padding: 24px 0;
   font-weight: 800;
   font-size: 36px;
-  color: #1f2937
+  color: #1f2937;
 }
 
 .example-container {
