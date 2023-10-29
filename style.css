@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+.start {
+  background-color: #1f2937;
+}
+
+.start-content {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 48px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo {
+  height: 2.5em;
+  width: 2.5em;
+}
+
+svg {
+  fill: #e5e7eb;
+}
+
+.links {
+  display: flex;
+  list-style: none;
+  gap: 16px;
+}
+
+.links a {
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+#hero {
+  display: flex;
+  padding: 48px 0;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 400px;
+}
+
+.hero-text * {
+  margin-bottom: 8px;
+}
+
+#hero img {
+  flex: 1;
+  min-width: 400px;
+}
+
+#hero h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+}
+
+#hero p {
+  color: #e5e7eb;
+}
+
+button {
+  background-color: #3882f6;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  padding: 4px 24px;
+  align-self: center;
+}
+
+
+#examples h2 {
+  text-align: center;
+  padding: 24px 0;
+  font-weight: 800;
+  font-size: 36px;
+  color: #1f2937
+}
+
+.example-container {
+  display: flex;
+  justify-content: center;
+  gap: 75px;
+  flex-wrap: wrap;
+  padding-bottom: 84px;
+}
+
+.media-item {
+  width: 150px;
+  text-align: center;
+}
+
+.media-item img {
+  height: 150px;
+  width: 150px;
+  border-radius: 12px;
+  border: 4px solid #3882f6;
+  object-fit: cover;
+}
+
+#quote {
+  background-color: #e5e7eb;
+}
+
+.quote-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 100px 16px;
+}
+
+.quote-content {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote-author {
+  font-weight: bold;
+  text-align: end;
+}
+
+#newsletter {
+  padding: 100px 72px;
+}
+
+.call-to-action {
+  color: white;
+  display: flex;
+  background-color: #3882f6;
+  padding: 48px 80px;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: 0 auto;
+  border-radius: 12px;
+}
+
+.white-border {
+  border: 2px solid white;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  display: flex;
+  height: 72px;
+  align-items: center;
+  justify-content: center;
+}
